@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: YOUR-DOCKERHUB-USERNAME/gitops-demo:v1
+          image: khadree12/gitops-demo:v1
           ports:
             - containerPort: 3000
           resources:
