@@ -16,6 +16,7 @@ spec:
       containers:
         - name: demo-app
           image: khadree12/gitops-demo:v1
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
           resources:
