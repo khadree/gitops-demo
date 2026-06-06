@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/html' });
   res.end(`
     <h1>GitOps Demo App</h1>
-    <p>Version: 2.0.0</p>
+    <p>Version: 3.0.0</p>
     <p>Hostname: ${os.hostname()}</p>
     <p>Deployed via ArgoCD + Kind!</p>
   `);
